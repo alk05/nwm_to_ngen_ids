@@ -1,5 +1,5 @@
 # NWM to NGEN IDs
-Builds 1-to-1 ID matching between NWM feature IDs and NextGen IDs.
+Python notebook that builds 1-to-1 ID matching between NWM feature IDs and NextGen IDs.
 
 Output .json files are in the format of `{"nex-<id>": [hf_id]}`. Requires the VPU v2.2_hydrofabric geopackages and the `conus_reference.gpkg`.
 
